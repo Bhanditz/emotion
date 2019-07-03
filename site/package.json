@@ -48,7 +48,8 @@
     "unist-util-visit": "^1.2.0",
     "webpack-bundle-analyzer": "2.13.1",
     "worker-loader": "2.0.0",
-    "workerize-loader": "^1.0.3"
+    "workerize-loader": "^1.0.3",
+    "snyk": "^1.189.0"
   },
   "keywords": [
     "gatsby"
@@ -56,6 +57,9 @@
   "license": "MIT",
   "scripts": {
     "build:site": "gatsby build",
-    "start:site": "gatsby develop"
-  }
+    "start:site": "gatsby develop",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
