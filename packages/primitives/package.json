@@ -9,7 +9,7 @@
   ],
   "dependencies": {
     "@emotion/primitives-core": "^9.2.7",
-    "babel-plugin-emotion": "^9.2.5"
+    "babel-plugin-emotion": "^10.0.0"
   },
   "peerDependencies": {
     "prop-types": "15.x",
