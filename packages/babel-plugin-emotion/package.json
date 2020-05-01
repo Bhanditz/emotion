@@ -21,7 +21,8 @@
     "find-root": "^1.1.0",
     "mkdirp": "^0.5.1",
     "source-map": "^0.5.7",
-    "touch": "^1.0.0"
+    "touch": "^1.0.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "babel-check-duplicated-nodes": "^1.0.0"
@@ -39,5 +40,10 @@
   ],
   "bugs": {
     "url": "https://github.com/emotion-js/emotion/issues"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
