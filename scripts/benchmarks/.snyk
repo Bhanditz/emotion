@@ -1,0 +1,88 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - babel-core > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-types > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-generator > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-traverse > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-template > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-register > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - parcel > @babel/core > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - parcel > babylon-walk > babel-types > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-register > babel-core > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - http-server > portfinder > async > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - parcel > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - parcel > htmlnano > uncss > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - parcel > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - parcel > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - parcel > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - parcel > htmlnano > uncss > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - parcel > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - parcel > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
+    - parcel > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-01T05:38:44.787Z'
